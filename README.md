@@ -9,11 +9,14 @@ What is the average discount percentage offered per category?
 Which products offer the best value for money (price per gram)?
 
 📁 Dataset
-Field           Details 
-Source          Kaggle — Zepto Inventory Dataset
-File            zepto_v2.csv
-Rows            ~3,700+ SKUs 
-Grain           One row = one SKU (Stock Keeping Unit)
+## 🗂️ Dataset
+
+| Field  | Details |
+|--------|---------|
+| **Source** | [Kaggle — Zepto Inventory Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv) |
+| **File**   | zepto_v2.csv |
+| **Rows**   | ~3,700+ SKUs |
+| **Grain**  | One row = one SKU (Stock Keeping Unit) |
 
 
  Schema 
