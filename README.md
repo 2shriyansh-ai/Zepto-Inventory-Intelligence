@@ -9,18 +9,6 @@ This project simulates end-to-end analyst workflows:
 
 ---
 
-## 📊 Project Overview
-
-Zepto operates on a hyper-fast delivery model with thousands of SKUs across multiple product categories.
-
-This project analyzes their inventory to answer key business questions around:
-- Pricing  
-- Discounts  
-- Stock availability  
-- Revenue potential  
-
----
-
 ## ❓ Business Questions Answered
 
 - Which product categories generate the highest estimated revenue?
