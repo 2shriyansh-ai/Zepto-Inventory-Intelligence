@@ -46,3 +46,17 @@ CREATE TABLE zepto (
     outOfStock             BOOLEAN,
     quantity               INTEGER
 );
+
+## 🔄 Project Workflow
+
+Raw CSV Data
+    ↓
+Database Setup (pgAdmin + Table Creation)
+    ↓
+Data Exploration (EDA)
+    ↓
+Data Cleaning
+    ↓
+Business Analysis
+    ↓
+Insights & Findings
