@@ -47,6 +47,7 @@ CREATE TABLE zepto (
     quantity               INTEGER
 );
 
+
 ## 🔄 Project Workflow
 
 Raw CSV Data
