@@ -52,10 +52,10 @@ Insights & Findings    README.md
 
 
 📂 Repository Structure
-Zepto-Inventory-Intelligence 
-┣  README.md              
-┣  Zepto_SQL_data_analysis.sql     ← All queries (EDA + Cleaning + Analysis)    
-┗  zepto_v2.csv    ← Raw dataset
+Zepto-Inventory-Intelligence
+├── 📄 zepto_v2.csv                 ← Raw dataset
+├── 📄 Zepto_SQL_data_analysis.sql  ← All queries (EDA + Cleaning + Analysis)
+└── 📄 README.md
 
 
 🚀 How to Run 
