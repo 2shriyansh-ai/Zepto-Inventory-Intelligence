@@ -20,14 +20,14 @@ This project simulates end-to-end analyst workflows:
 
 ---
 
-## 📂 Dataset
+## 🗂️ Dataset
 
-| Field | Details |
-|------|--------|
-| Source | Kaggle — Zepto Inventory Dataset |
-| File | `zepto_v2.csv` |
-| Rows | ~3,700+ SKUs |
-| Grain | One row = one SKU |
+| Field  | Details |
+|--------|---------|
+| **Source** | [Kaggle — Zepto Inventory Dataset](https://www.kaggle.com/datasets/palvinder2006/zepto-inventory-dataset/data?select=zepto_v2.csv) |
+| **File**   | zepto_v2.csv |
+| **Rows**   | ~3,700+ SKUs |
+| **Grain**  | One row = one SKU (Stock Keeping Unit) |
 
 ---
 
