@@ -46,9 +46,7 @@ CREATE TABLE zepto (
     outOfStock             BOOLEAN,
     quantity               INTEGER
 );
-
-
-## 🔄 Project Workflow
+---
 
 Raw CSV Data
     ↓
