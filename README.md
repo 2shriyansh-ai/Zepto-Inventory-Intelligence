@@ -1,6 +1,4 @@
-# 📦 Zepto Inventory Intelligence — SQL Data Analysis
-
-## 📌 Project
+# 📦 Zepto Inventory Intelligence — SQL Data Analysis Project
 
 A real-world SQL data analytics project built on an e-commerce inventory dataset scraped from **Zepto** — one of India’s fastest-growing quick-commerce startups.
 
