@@ -52,13 +52,14 @@ Insights & Findings    README.md
 
 
 ## 📁 Repository Structure
-
+` ` `
 
 📦 Zepto-Inventory-Intelligence
 ├── 📄 zepto_v2.csv                 ← Raw dataset
 ├── 📄 Zepto_SQL_data_analysis.sql  ← All queries (EDA + Cleaning + Analysis)
 └── 📄 README.md
-
+` ` `
+---
 
 🚀 How to Run 
 1. Open pgAdmin and create a new database (e.g., zepto_db )
