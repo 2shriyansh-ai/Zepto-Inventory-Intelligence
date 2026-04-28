@@ -19,20 +19,22 @@ Which products offer the best value for money (price per gram)?
 | **Grain**  | One row = one SKU (Stock Keeping Unit) |
 
 
- Schema 
- CREATE TABLE zepto (  
- sku_id                 SERIAL PRIMARY KEY,    
- category               VARCHAR(120),    
- name                   VARCHAR(150) NOT NULL,   
- mrp                    NUMERIC(8,2),    
- discountPercent        NUMERIC(5,2),    
- availableQuantity      INTEGER,    
- discountedSellingPrice NUMERIC(8,2),    
- weightInGms            INTEGER,    
- outOfStock             BOOLEAN,    
- quantity               INTEGER 
- );
+ ## Schema
 
+```sql
+CREATE TABLE zepto (
+    sku_id SERIAL PRIMARY KEY,
+    category VARCHAR(120),
+    name VARCHAR(150) NOT NULL,
+    mrp NUMERIC(8,2),
+    discountPercent NUMERIC(5,2),
+    availableQuantity INTEGER,
+    discountedSellingPrice NUMERIC(8,2),
+    weightInGms INTEGER,
+    outOfStock BOOLEAN,
+    quantity INTEGER
+);
+```
 Note: Duplicate product names exist intentionally — the same product may appear multiple times with different weights, packaging sizes, or discount schemes, mirroring real catalog data.
 
 🛠️ Project Workflow 
