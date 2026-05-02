@@ -46,3 +46,43 @@ CREATE TABLE zepto (
     outOfStock             BOOLEAN,
     quantity               INTEGER
 );
+
+---
+
+## 🔧 Project Workflow
+
+```
+Raw CSV Data
+ ↓
+Database Setup (Table creation + CSV import via pgAdmin)
+ ↓
+Data Exploration (Row counts, NULL checks, category distribution)
+ ↓
+Data Cleaning (Remove zero-price entries, convert paise → rupees)
+ ↓
+Business Analysis (Revenue, pricing, discount, stock queries)
+ ↓
+Insights & Findings
+```
+
+---
+
+## 📁 Repository Structure
+
+```
+📦 Zepto-Inventory-Intelligence
+ ┣ 📄 zepto_v2.csv                    ← Raw dataset
+ ┣ 📄 Zepto_SQL_data_analysis.sql     ← All queries (EDA + Cleaning + Analysis)
+ ┗ 📄 README.md
+```
+
+---
+
+## 🚀 How to Run
+
+1. Open **pgAdmin** and create a new database (e.g., `zepto_db`)
+2. Run the `CREATE TABLE` statement from the SQL file
+3. Import `zepto_v2.csv` via pgAdmin's **Import/Export** tool
+4. Execute the queries section by section
+
+---
