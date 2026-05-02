@@ -49,16 +49,3 @@ CREATE TABLE zepto (
 ---
 
 
-
-
-
----
-
-## 🚀 How to Run
-
-1. Open **pgAdmin** and create a new database (e.g., `zepto_db`)
-2. Run the `CREATE TABLE` statement from the SQL file
-3. Import `zepto_v2.csv` via pgAdmin's **Import/Export** tool
-4. Execute the queries section by section
-
----
