@@ -48,15 +48,6 @@ CREATE TABLE zepto (
 );
 ---
 
----
-
----
-
-
-
-
----
-
 ## 🚀 How to Run
 
 1. Open **pgAdmin** and create a new database (e.g., `zepto_db`)
