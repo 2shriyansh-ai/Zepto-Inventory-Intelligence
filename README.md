@@ -31,21 +31,32 @@ This project simulates end-to-end analyst workflows:
 
 ---
 
-## 🧱 Schema
+## 🗃️ Schema
 
 ```sql
 CREATE TABLE zepto (
-    sku_id                 SERIAL PRIMARY KEY,
-    category               VARCHAR(120),
-    name                   VARCHAR(150) NOT NULL,
-    mrp                    NUMERIC(8,2),
-    discountPercent        NUMERIC(5,2),
-    availableQuantity      INTEGER,
-    discountedSellingPrice NUMERIC(8,2),
-    weightInGms            INTEGER,
-    outOfStock             BOOLEAN,
-    quantity               INTEGER
+    sku_id                  SERIAL PRIMARY KEY,
+    category                VARCHAR(120),
+    name                    VARCHAR(150) NOT NULL,
+    mrp                     NUMERIC(8,2),
+    discountPercent         NUMERIC(5,2),
+    availableQuantity       INTEGER,
+    discountedSellingPrice  NUMERIC(8,2),
+    weightInGms             INTEGER,
+    outOfStock              BOOLEAN,
+    quantity                INTEGER
 );
+```
+
+---
+
+## 🚀 How to Run
+
+1. Open **pgAdmin** and create a new database (e.g., `zepto_db`)
+2. Run the `CREATE TABLE` statement from the SQL file
+3. Import `zepto_v2.csv` via pgAdmin's **Import/Export** tool
+4. Execute the queries section by section
+
 ---
 
 
