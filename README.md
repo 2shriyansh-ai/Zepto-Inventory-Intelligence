@@ -9,6 +9,12 @@
 ![Business Analysis](https://img.shields.io/badge/Focus-Pricing%20%7C%20Stock%20%7C%20Revenue-F97316)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Dashboard-FF4B4B?logo=streamlit&logoColor=white)
 
+<br />
+
+<a href="https://zepto-inventory-intelligence.streamlit.app/">
+  <strong>Launch Live Dashboard</strong>
+</a>
+
 </div>
 
 ## Overview
