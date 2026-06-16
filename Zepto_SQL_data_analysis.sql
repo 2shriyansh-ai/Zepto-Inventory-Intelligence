@@ -95,7 +95,7 @@ SELECT category,
 SUM(discountedSellingPrice * availableQuantity) AS total_revenue
 FROM zepto
 GROUP BY category
-ORDER BY total_revenue;
+ORDER BY total_revenue DESC;
 
 -- Q4. Find all products where MRP is greater than ₹500 and discount is less than 10%.
 SELECT DISTINCT name, mrp, discountPercent
@@ -131,4 +131,4 @@ SELECT category,
 SUM(weightInGms * availableQuantity) AS total_weight
 FROM zepto
 GROUP BY category
-ORDER BY total_weight;
+ORDER BY total_weight DESC;
