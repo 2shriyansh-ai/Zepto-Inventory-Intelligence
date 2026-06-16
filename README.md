@@ -7,6 +7,7 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Inventory%20Analytics-336791?logo=postgresql&logoColor=white)
 ![Dataset](https://img.shields.io/badge/Dataset-3,731%20SKUs-7C3AED)
 ![Business Analysis](https://img.shields.io/badge/Focus-Pricing%20%7C%20Stock%20%7C%20Revenue-F97316)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Dashboard-FF4B4B?logo=streamlit&logoColor=white)
 
 </div>
 
@@ -61,6 +62,16 @@ The workflow follows a practical analyst path:
 
 ## How to Run
 
+### Streamlit dashboard
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+The dashboard opens locally with KPI cards, category revenue charts, discount
+analysis, stockout pressure, best-value products, and a searchable SKU table.
+
 ### PostgreSQL analysis
 
 1. Create a PostgreSQL database.
@@ -80,16 +91,30 @@ generates the visual report pages used to create the README screenshots.
 ## Project Files
 
 ```text
+app.py                        Streamlit dashboard
 Zepto_SQL_data_analysis.sql   SQL schema, cleaning, and analysis queries
 zepto_v2.csv                  Source inventory dataset
 scripts/                      README asset generator
 assets/                       Generated visual snapshots
+requirements.txt              Dashboard dependencies
 ```
 
 ## What This Demonstrates
 
 - SQL data exploration and cleaning
+- Interactive dashboarding with Streamlit
 - Inventory and pricing analysis
 - Revenue estimation from SKU-level data
 - Stockout and discount pattern analysis
 - Clear communication of business insights
+
+## Deploy as a Live App
+
+1. Push this repository to GitHub.
+2. Go to [Streamlit Community Cloud](https://streamlit.io/cloud).
+3. Click **New app**.
+4. Select this repository and branch.
+5. Set the main file path to `app.py`.
+6. Click **Deploy**.
+
+After deployment, copy the Streamlit URL into this README and your resume.
